@@ -43,11 +43,6 @@ public class ExampleUnitTest {
         assertTrue(cont.isEmpty());
     }
 
-    @Test
-    public void AdditionIsCorrect(){
-        assertEquals(4, 2+2);
-    }
-
     private class SimpleProduct extends ProductProperties implements Product {
         @Override
         public String getStringToDisplay() {
@@ -102,9 +97,5 @@ public class ExampleUnitTest {
             assertEquals(it1.next(), it2.next());
     }
 
-    //@Test
-    //public void AdditionIsCorrect(){
-    //    assertEquals(4, 1+2);
-    //}
 
 }
